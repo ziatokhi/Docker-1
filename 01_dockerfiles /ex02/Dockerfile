@@ -1,5 +1,5 @@
 FROM ruby:2.5.1
-MAINTAINER Honsse Gadacha <hgadacha@student.42.fr>
+MAINTAINER zia <zkamran@student.42.fr>
 RUN apt-get -y update && \
 	apt-get -y upgrade && \
 	apt-get -y install nodejs sqlite3 libsqlite3-dev && \
